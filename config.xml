@@ -78,9 +78,6 @@
     <icon src="resources/ios/icon/icon-76@2x.png"         gap:platform="ios"      width="152" height="152" />
     <icon src="resources/ios/icon/icon-57@2x.png"         gap:platform="ios"      width="114" height="114" />
     <icon src="resources/ios/icon/icon-72@2x.png"         gap:platform="ios"      width="144" height="144" />
-
-    <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
-<gap:plugin name="ch.ti8m.documenthandler"  spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
         
     <gap:splash src="splash.png" />
     <gap:splash src="resources/android/splash/drawable-land-ldpi-screen.png"      gap:platform="android" gap:qualifier="land-ldpi"/>
@@ -531,5 +528,7 @@
             <key>NSAllowsArbitraryLoads</key><true/>
         </dict>
     </gap:config-file>
+        <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
+<gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
 
 </widget>
