@@ -1,23 +1,31 @@
 <ion-view view-title="{{ 'mm.login.connecttomoodle' | translate }}">
-  <ion-nav-buttons side="secondary">
-      <button class="button button-icon ion-help-circled" ng-click="showHelp()" aria-label="{{ 'mm.core.help' | translate }}"></button>
-  </ion-nav-buttons>
-  <ion-content id="mm-login-site" mm-state-class>
-      <div class="card">
-        <div class="item item-text-wrap">{{ 'mm.login.newsitedescription' | translate }}</div>
-      </div>
-      <div class="list list-inset">
-        <form>
-          <ion-input class="item item-input item-stacked-label">
-            <ion-label>{{ 'mm.login.siteaddress' | translate }}</ion-label>
-            <input type="url" placeholder="moodle.org" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
-          </ion-input>
-          <div class="item item-input padding">
-              <button class="button button-block" ng-click="connect(siteurl)" ng-disabled="!siteurl">{{ 'mm.login.connect' | translate }}</button>
-              <!-- <input type="submit" class="button button-block" value="{{ 'mm.login.connect' | translate }}" > -->
-          </div>
-        </form>
-      </div>
-    </form>
-  </ion-content>
+    <ion-nav-buttons side="secondary">
+        <button class="button button-icon ion-help-circled" ng-click="showHelp()" aria-label="{{ 'mm.core.help' | translate }}"></button>
+    </ion-nav-buttons>
+    <ion-content id="mm-login-site" mm-state-class style='background-image: url("back.jpg") !important;'>
+        <div class="card">
+            <div class="item item-text-wrap"><!--{{ 'mm.login.newsitedescription' | translate }}-->
+                Clic en el boton "Conectar" para continuar...
+            </div>
+            <label></label>
+            <div class="list list-inset" ng-init="siteurl = 'http://orolegalvirtual.portalaprende.co/LMS/'">
+                <div class="item item-text-wrap" style='background-size: contain;background-repeat: no-repeat;background-color: transparent !important;background-image: url("logo.png") !important'><!--{{ 'mm.login.newsitedescription' | translate }}--></div>
+                <form>
+                    <!--<ion-input class="item item-input item-stacked-label">
+                      <ion-label>{{ 'mm.login.siteaddress' | translate }}</ion-label>
+                      <input type="url" placeholder="moodle.org" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
+                    </ion-input>-->
+                    <input type="hidden" value="{{siteurl}}" ng-model="siteurl" mm-no-input-validation ng-change="validate(siteurl)">
+                    <div class="item">
+                        <button style="background: rgba(126,47,68,1)" class="button button-block" ng-click="connect(siteurl)">{{ 'mm.login.connect' | translate }}</button>
+                    </div>
+                    <!--
+                    <div class="item item-input padding">
+                        <button class="button button-block" ng-click="connect(siteurl)" ng-disabled="!siteurl">{{ 'mm.login.connect' | translate }}</button>
+                    </div>
+                    -->
+                </form>
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
