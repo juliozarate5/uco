@@ -81,6 +81,7 @@
 
     <gap:plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" source="git" />
     <gap:plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" source="git" />
+        <plugin name="WebIntent" value="com.borismus.webintent.WebIntent" />
         
     <gap:splash src="splash.png" />
     <gap:splash src="resources/android/splash/drawable-land-ldpi-screen.png"      gap:platform="android" gap:qualifier="land-ldpi"/>
