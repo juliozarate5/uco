@@ -446,7 +446,7 @@
     "mm.login.connect": "Conectar",
     "mm.login.connecttomoodle": "HMUA Virtual",
     "mm.login.credentials": "Credenciales",
-    "mm.login.credentialsdescription": "Introduzca su nombre se usuario y contraseña para entrar",
+    "mm.login.credentialsdescription": "Introduzca su nombre de usuario y contraseña para entrar",
     "mm.login.erroraccesscontrolalloworigin": "La llamada Cross-Origin que está intentando ha sido rechazada. Por favor visite https://docs.moodle.org/dev/Moodle_Mobile_development_using_Chrome_or_Chromium",
     "mm.login.errordeletesite": "Ha ocurrido un error eliminando este sitio. Por favor, inténtelo de nuevo.",
     "mm.login.errorupdatesite": "Se ha producido un error actualizando el token del sitio.",
