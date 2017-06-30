@@ -2,12 +2,12 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.hospitalmanueluribeangel.lms"
+        id        = "co.edu.polytecvirtual"
         versionCode = "20150"
         version   = "3.1.3">
-    <name>HMUA virtual</name>
+    <name>Polytecvirtual</name>
     <description>
-        App móvil Oficial de la Plataforma Aprendizaje Hospital Manuel Uribe Ángel
+        App móvil Oficial Polytecvirtual
     </description>
 
     <author href="http://www.sistemasyformacion.com" email="jmartinez@sistemasyformacion.com">
