@@ -247,7 +247,7 @@
     "mm.login.credentialsdescription": "Please provide your username and password to login on",
     "mm.login.confirmdeletesite": "Are you sure you want to delete the site {{sitename}}?",
     "mm.login.connect": "Connect!",
-    "mm.login.connecttomoodle": "Polytec virtual",
+    "mm.login.connecttomoodle": "Alfabetizacion UCO",
     "mm.login.contactyouradministrator": "Contact your site administrator for further help.",
     "mm.login.contactyouradministratorissue": "Please, ask the administrator to check the following issue: {{$a}}",
     "mm.login.erroraccesscontrolalloworigin": "The Cross-Origin call you're trying to perform has been rejected. Please check https://docs.moodle.org/dev/Moodle_Mobile_development_using_Chrome_or_Chromium",
